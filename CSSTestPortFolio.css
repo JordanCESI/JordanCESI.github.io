@@ -1,0 +1,211 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	padding: 0px;
+	
+	background-image: url('background-body.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+
+a {
+	color: #0077c2;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #048e8e;
+
+}
+
+header {
+	background-color: #03070f;
+	border-bottom: 2px solid #fff;
+	box-shadow: 0 0 10px red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	color: #fff;
+	filter: brightness(150%);
+	padding: 10px;
+}
+
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 40px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	/* padding-right: 1em; */
+	padding-top: 2%;
+	text-decoration: none;
+	color: red;
+
+}
+
+.main {
+	padding-top: 5em;
+}
+
+/* section {
+	padding: 2em;
+	margin-bottom: 2em;
+	 background-color: #fff; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+} */
+
+ul li a {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+
+/* Styles responsives */
+@media (max-width: 600px) {
+	nav ul {
+		flex-wrap: wrap;
+	}
+	
+	nav ul li {
+		flex-basis: 100%;
+		margin-bottom: 1em;
+	}
+	
+	nav ul li:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.row{
+	
+	padding-left: -12px;
+}
+
+.welcome{
+	color: #fff;
+  	text-align: center;
+	padding-top: 10%;
+}
+.msgwelcome{
+	color: red;
+  	text-align: center;
+	padding-top: 50px;
+}
+
+#about{
+	padding-top: 200px;
+}
+
+#about h2{
+	color: #fff;
+	font-size: 45px;
+}
+
+#about p{
+	color: red;
+	font-size: 30px;
+
+}
+
+#about ul{
+	color: #fff;
+	font-size: 28px;
+}
+
+#projets{
+	padding-top: 200px;
+}
+#projets h2{
+	color: red;
+	font-size: 45px;
+}
+#projets h3{
+	color: #fff;
+	font-size: 40px;
+}
+#projets h4{
+	color: red;
+	font-size: 30px;
+	padding-top: 20px;
+}
+#projets p{
+	color: #fff;
+	font-size: 26px;
+	padding-top: 20px;
+
+}
+#projets ul{
+	color: #fff;
+	font-size: 26px;
+}
+
+
+hr{
+	color: white;
+}
+
+#contact{
+	padding-top: 200px;
+}
+#contact h2{
+	color: 91cf50;
+	font-size: 45px;
+}
+#contact p{
+	color: #fff;
+	font-size: 26px;
+}
+#contact a{
+	color: #fff;
+	font-size: 26px;
+	text-decoration: none;
+}
+
+#Résumé{
+	padding-top: 200px;
+}
+#Résumé h2{
+	color: red;
+	font-size: 45px;
+}
+
+
+
+
+
