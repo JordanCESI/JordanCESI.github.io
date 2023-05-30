@@ -197,12 +197,23 @@ hr{
 	text-decoration: none;
 }
 
+.linkedin img{
+	width: 210px;
+	height: 200px;
+}
+
 #Résumé{
 	padding-top: 200px;
 }
 #Résumé h2{
 	color: red;
 	font-size: 45px;
+}
+#Résumé h3{
+	color: white;
+}
+#Résumé a{
+	text-decoration: none;
 }
 
 
